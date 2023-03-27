@@ -2,7 +2,7 @@ import styled, { css } from "styled-components"
 import { transitionTheme } from './mixins'
 
 
-export const HistoryContainer = styled.div`
+export const HistoryContainer = styled("div")<{historyToggle: boolean}>`
     position: absolute;
     left: 0;
     right: 0;    

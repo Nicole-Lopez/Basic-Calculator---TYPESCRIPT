@@ -62,7 +62,6 @@ const DarkTheme = {
 			item: '#063a52',
 			clear: '#646d99'
 		}
-
 	}
 }
 

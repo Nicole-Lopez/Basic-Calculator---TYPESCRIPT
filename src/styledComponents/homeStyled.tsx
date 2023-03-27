@@ -16,7 +16,7 @@ export const Container = styled.div`
 	}
 `;
 
-export const Calculator = styled.div`
+export const Calculator = styled("div")<{historyToggle: boolean}>`
 	position: relative;
 	display: grid;
 	grid-template-columns:repeat(4, 1fr);
@@ -97,7 +97,7 @@ export const Operator = styled(ButtonCalculator)`
 	background-color: ${({theme}) => theme.bgOperator};
 `;
 
-export const NumberBtn = styled(ButtonCalculator)`
+export const NumberBtn = styled(ButtonCalculator)<{bottomLeft?: boolean}>`
 	font-size: 2.5rem;
 	background-color: ${({theme}) => theme.bgNumber};
 

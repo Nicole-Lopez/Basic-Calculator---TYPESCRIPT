@@ -6,7 +6,7 @@ import { CalculatorAction } from './calculatorReducer'
 interface Context extends CalculatorState {
 	dispatch: Dispatch<CalculatorAction>;
 	historyOpen: boolean;
-	toggleHistory: Dispatch<SetStateAction<boolean>>;
+	toggleHistory: () => void;
 	preview: string;
 	setPreview: Dispatch<SetStateAction<string>>;
 	number: string;

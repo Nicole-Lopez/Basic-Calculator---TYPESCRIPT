@@ -170,7 +170,6 @@ export default function Home() {
 	});
 
 
-
 	return (
 	    <ThemeProvider theme={Themes[theme]}>
 			<Container>
