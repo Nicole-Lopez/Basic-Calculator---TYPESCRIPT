@@ -8,7 +8,7 @@
 - Theme toggle. In the first render, starts with the default system theme
 - Responsive
 
-
+![screenshot]('./')
 <p align="center"><a href="https://nicole-lopez.github.io/Basic-Calculator---TYPESCRIPT/">View demo</a></p>
 
 ## Table of Contents
