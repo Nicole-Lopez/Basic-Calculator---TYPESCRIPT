@@ -11,6 +11,18 @@
 ![screenshot](./src/assets/themes.png)
 <p align="center"><a href="https://nicole-lopez.github.io/Basic-Calculator---TYPESCRIPT/">View demo</a></p>
 
+---
+
+**This is a new improved version of a calculator made as a project for freeCodeCamp**
+
+**REPOSITORY: https://github.com/Nicole-Lopez/basic-calculator**
+
+**DEPLOY: https://nicole-lopez.github.io/basic-calculator/**
+
+---
+
+
+
 ## Table of Contents
 - [Built With](#built-with)
 	- [Use](#use)
